@@ -12,7 +12,7 @@ function Footer() {
           <Link href="/">
             <Image src="/logo.png" width={130} height={45.41} />
           </Link>
-          <div className="flex flex-col space-y-2  ">
+          <div className="flex  ">
             <div className="flex  space-x-1 px-3 border-l-2  border-[#8f6f3f]">
               <p className="flex items-center font-semibold">
                 <FaLocationDot className="mr-1" /> Location:
