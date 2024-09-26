@@ -6,7 +6,7 @@ function Contact() {
     <section className="bg-[#545454] py-[60px]">
       <div className="w-3/6 mx-auto container text-white">
         <div className="grid grid-cols-2 font-roboto items-center">
-          <p className="font-bold text-3xl">T and P Studio</p>
+          <p className="font-bold text-3xl">T and P Design Studio</p>
           <p className="text-center whitespace-normal">
             Want to discuss your new project?...{" "}
             <Link
