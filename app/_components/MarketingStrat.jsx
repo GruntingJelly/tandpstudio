@@ -4,9 +4,9 @@ function MarketingStrat() {
   return (
     <div className="w-3/6 mx-auto container py-20 space-y-7 font-roboto">
       <h2 className="font-bold text-[42px] text-[#8f6f3f] text-center">
-        S.M.A.R.T MARKETING STRATEGY
+        Why Choose Us
       </h2>
-      <table className="table-auto text-[#8f6f3f] w-full">
+      {/* <table className="table-auto text-[#8f6f3f] w-full">
         <tbody>
           <tr>
             <td className="uppercase font-semibold mr-5">Specific</td>
@@ -46,7 +46,44 @@ function MarketingStrat() {
             </td>
           </tr>
         </tbody>
-      </table>
+      </table> */}
+
+      <div className="grid grid-cols-4 gap-5">
+        <div className="flex flex-col items-center text-[#8f6f3f] space-y-5">
+          <h4 className="font-semibold text-2xl w-1/2 text-center">
+            Innovative Design
+          </h4>
+          <p className="text-justify font-light">
+            We utilize innovative design techniques to develop spaces that are
+            both practical and visually appealing.
+          </p>
+        </div>
+        <div className="flex flex-col items-center text-[#8f6f3f] space-y-5">
+          <h4 className="font-semibold text-2xl w-1/2 text-center">
+            Sustainability Focus
+          </h4>
+          <p className="text-justify font-light">
+            Our dedication to sustainable design reduces environmental impact
+            and enhances energy efficiency.
+          </p>
+        </div>
+        <div className="flex flex-col items-center text-[#8f6f3f] space-y-5">
+          <h4 className="font-semibold text-2xl text-center">
+            Client-Centered Approach
+          </h4>
+          <p className="text-justify font-light">
+            We emphasize teamwork to keep your vision central to every project.
+          </p>
+        </div>
+        <div className="flex flex-col items-center text-[#8f6f3f] space-y-5">
+          <h4 className="font-semibold text-2xl w-1/2 text-center">
+            Licensed & Insured
+          </h4>
+          <p className="text-justify font-light">
+            We ensure your project is secure and professionally managed.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
